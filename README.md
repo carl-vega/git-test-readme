@@ -2,15 +2,15 @@
 
 Cloning of repository
 
- ```
- ~/Documents/Development                                ✔  3296  19:06:24
- $  git clone git@github.com:carl-vega/git-test.git
+```
+~/Documents/Development                                ✔  3296  19:06:24
+$  git clone git@github.com:carl-vega/git-test.git
 Cloning into 'git-test'...
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (3/3), done.
- ```
+```
 
 Navigating into repository
 
@@ -209,6 +209,7 @@ nothing to commit, working tree clean
 origin	git@github.com:carl-vega/git-test.git (fetch)
 origin	git@github.com:carl-vega/git-test.git (push)
 ```
+
 Switched back to first branch `new-branch`
 
 ```
@@ -216,7 +217,7 @@ Switched back to first branch `new-branch`
  $ git checkout new-branch
 Switched to branch 'new-branch'
 ```
-s
+
 ```
  ~/Documents/Development/git-test   new-branch          ✔  3318  19:21:21
  $ touch script.js
@@ -245,7 +246,7 @@ To push the current branch and set the remote as upstream, use
 
 ```
 
-Duplicated the same process for the branch `new-branch` 
+Duplicated the same process for the branch `new-branch`
 
 ```
  ~/Documents/Development/git-test   new-branch      128 ↵  3322  19:22:49
@@ -319,7 +320,7 @@ Git pull showing branch up to date, but it is not
 Already up to date.
 ```
 
-Command `git fetch origin`  will fetch from origin
+Command `git fetch origin` will fetch from origin
 
 ```
  ~/Documents/Development/git-test   new-branch          ✔  3328  19:25:25
