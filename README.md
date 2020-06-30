@@ -209,23 +209,6 @@ nothing to commit, working tree clean
 origin	git@github.com:carl-vega/git-test.git (fetch)
 origin	git@github.com:carl-vega/git-test.git (push)
 ```
-
-Not sure why I did this
-
-```
- ~/Documents/Development/git-test   master              ✔  3315  19:18:33
- $ git checkout another-branch
-Switched to branch 'another-branch'
-Your branch is up to date with 'origin/another-branch'.
-```
-
-```
- ~/Documents/Development/git-test   another-branch      ✔  3316  19:19:12
- $ git checkout master
-Switched to branch 'master'
-Your branch is up to date with 'origin/master'.
-```
-
 Switched back to first branch `new-branch`
 
 ```
@@ -233,7 +216,7 @@ Switched back to first branch `new-branch`
  $ git checkout new-branch
 Switched to branch 'new-branch'
 ```
-
+s
 ```
  ~/Documents/Development/git-test   new-branch          ✔  3318  19:21:21
  $ touch script.js
