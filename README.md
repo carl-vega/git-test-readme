@@ -360,6 +360,8 @@ Fast-forward
  create mode 100644 index.html
 ```
 
+A `git pull origin/master
+
 The files are all available in the current branch
 
 ```
@@ -433,6 +435,6 @@ If the repository is opened in VSCode this is the type of indicators that should
 ![](assests/VSCode-merge-conflict.png)
 Current changes are on master, and incoming changes are coming from the `git pull`. It is, of course, coders choice of which version to choose.
 
-The reason to not work on `master` is because the changes cannot easily be pushed and saved if the master is protected, like projects should be currently setup to be so per instructions.
+The reason to not work on `master` is because the changes cannot easily be pushed and saved if the master is protected, like projects should be currently setup.
 
 Last thing, names, such as `master` and `origin`, are merely naming conventions that can be changed, meaning do not think `origin` and `master` are the only options. As one option a firm could name the `origin` the company name and master could be the coders name, so as an example `origin/master` could be `taco-stand/carl-vega`.
