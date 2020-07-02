@@ -1,4 +1,4 @@
-# git-test-readmes
+# git-test-readme
 
 Cloning of repository
 
