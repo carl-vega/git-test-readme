@@ -360,7 +360,7 @@ Fast-forward
  create mode 100644 index.html
 ```
 
-A `git pull origin/master
+A `git pull origin/master` is the combined verion of `git fetch` and `git merge`
 
 The files are all available in the current branch
 
